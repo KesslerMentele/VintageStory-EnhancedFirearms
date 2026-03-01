@@ -23,7 +23,7 @@
             ]
         },
         {
-			"code": "sulfur", 
+			"code": "game:sulfur", 
 			"validStacks": [ { "type": "item", "code": "game:powder-sulfur"} ],
 			"minQuantity": 1,
 			"maxQuantity": 1
