@@ -1,0 +1,23 @@
+{
+    "code": "sodiumSulfate",
+    "shape": { "base": "game:block/food/meal/liquid" },
+    "perishableProps": {
+      "transitionedStack": { "type": "item", "code": "sodiumsulfate" }
+    },
+    "ingredients": [
+        {
+          "code": "game:salt",
+          "validStacks":  [ {"type": "item", "code": "game:salt"} ],
+          "minQuantity": 1,
+          "maxQuantity": 1
+        },
+        {
+          "code": "game:sulfur",
+          "validStacks": [ { "type": "item", "code": "game:powder-sulfur" } ],
+          "minQuantity": 1,
+          "maxQuantity": 1
+		}
+    ],
+    "cooksInto": { "type": "item", "code": "sodiumsulfate", "quantity": 10}
+
+}
