@@ -9,6 +9,7 @@ flowchart LR
 %% Existing Items
     salt[[Salt]]
     coke[[Coke]]
+    lime[[Lime]]
 
 %% Existing Fluids
     sulfuric(((Sulfuric Acid)))
@@ -35,7 +36,7 @@ flowchart LR
     salt-- 1 unit --> cookSulfate
     cookSulfate -- 1 unit --> saltCake
 
-
+    lime -- 1 unit --> cookAsh
     coke -- 2 units --> cookAsh
     saltCake -- 1 unit --> cookAsh
     cookAsh -- 1 unit --> blackAsh

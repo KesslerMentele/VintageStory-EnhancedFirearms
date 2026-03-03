@@ -1,0 +1,15 @@
+{
+    "$schema": "https://moddbcdn.vintagestory.at/schema/modinfo.latest.json",
+    "type": "Code",
+    "modid": "enhancedfirearms",
+    "name": "Enhanced Firearms",
+    "authors": [
+        "Kess",
+        "Matthew"
+    ],
+    "description": "Adds enhanced firearms to the game.",
+    "version": "0.0.2",
+    "dependencies": {
+        "game": "1.21.0"
+    }
+}
