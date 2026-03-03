@@ -1,7 +1,7 @@
 {
-  "code": "sodiumsulfate",
+  "code": "saltcake",
   "maxstacksize": 64,
-  "shape": { "base": "item/sodiumsulfate" },
+  "shape": { "base": "item/saltcake" },
   "behaviors": [
     {
       "name": "GroundStorable",
