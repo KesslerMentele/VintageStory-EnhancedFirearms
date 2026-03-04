@@ -2,13 +2,12 @@
 A mod for the game Vintage Story.
 
 
-## Making Sodium Hydroxide
+## Making Lye
 ```mermaid
 flowchart LR
 
 %% Existing Items
     salt[[Salt]]
-    coke[[Coke]]
     lime[[Lime]]
 
 %% Existing Fluids
@@ -17,35 +16,32 @@ flowchart LR
     water(((Water)))
 
 %% New Fluids
-    sodiumHydroxide((Sodium Hydroxide))
+    sodiumHydroxide((Lyewater))
 
 %% New Items
-    sodiumCarb[Sodium Carbonate]
+    sodiumCarb[Soda Ash]
     saltCake[Salt Cake]
     blackAsh[Black Ash]
-    sodaAshWet[Soda Ash *Wet*]
 
 %% Processing
     cookSulfate{Cooking Pot}
-    cookAsh{Cooking Pot}
-    soakAsh{Barrel instant}
+    cookAsh{Crucible?}
+    soakAsh{Barrel 24hrs}
     soakCarb{Barrel instant}
 
 %% Ratios
     sulfuric -- 1 litre --> cookSulfate
+    lime -- 1 unit --> cookSulfate
     salt-- 1 unit --> cookSulfate
     cookSulfate -- 1 unit --> saltCake
 
-    lime -- 1 unit --> cookAsh
-    coke -- 2 units --> cookAsh
     saltCake -- 1 unit --> cookAsh
     cookAsh -- 1 unit --> blackAsh
 
     water -- 1 litre --> soakAsh
     blackAsh -- 1 unit --> soakAsh
-    soakAsh -- 1 unit --> sodaAshWet
+    soakAsh -- 1 unit --> sodiumCarb
 
-    sodaAshWet -- Drying for 24 hours into 2 units--> sodiumCarb
 
     slakedLime -- 4 litres --> soakCarb
     sodiumCarb -- 2 units --> soakCarb
@@ -64,7 +60,7 @@ flowchart LR
     sulfuric(((Sulfuric Acid)))
     
 %% New Fluids
-    sodiumHydroxide((Sodium Hydroxide))
+    sodiumHydroxide((Lyewater))
     nitratingMix((Nitrating Mixture))
     nitroglycerine((Nitroglycerine))
     
@@ -109,7 +105,7 @@ flowchart LR
     sulfuric(((Sulfuric Acid)))
 
 %% New Fluids
-    sodiumHydroxide((Sodium Hydroxide))
+    sodiumHydroxide((Lyewater))
 
 %% New Items
     degummedFlax[Degummed Flax]
