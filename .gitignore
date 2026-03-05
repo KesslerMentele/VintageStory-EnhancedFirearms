@@ -19,7 +19,7 @@ bld/
 
 # JetBrains Rider
 *.sln.iml
-*.sln.DotSettings.*
+*.sln.DotSettings*
 
 ### Rider ###
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio, WebStorm and Rider
