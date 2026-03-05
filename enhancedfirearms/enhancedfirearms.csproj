@@ -62,4 +62,10 @@
     </Reference>
   </ItemGroup>
 
+   <ItemGroup>
+     <Folder Include="assets\enhancedfirearms\itemtypes\" />
+     <Folder Include="assets\enhancedfirearms\patches\" />
+     <Folder Include="assets\enhancedfirearms\shapes\item\" />
+   </ItemGroup>
+
 </Project>

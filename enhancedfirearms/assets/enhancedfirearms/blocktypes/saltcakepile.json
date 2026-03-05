@@ -1,0 +1,34 @@
+{
+  "code": "saltcakepile",
+  "class": "BlockPeatPile",
+  "entityClass": "PeatPile",
+  "shape": {
+    "base": "game:block/basic/invisible"
+  },
+  "textures": {
+    "sides": {
+      "base": "game:block/soil/peatpile/sides"
+    },
+    "peat": {
+      "base": "game:block/soil/peat"
+    }
+  },
+  "attributes": {
+    "mapColorCode": "land"
+  },
+  "sidesolid": {
+    "all": false
+  },
+  "sideopaque": {
+    "all": false
+  },
+  "blockmaterial": "Soil",
+  "creativeinventory": {
+    "general": [
+      ""
+    ]
+  },
+  "replaceable": 400,
+  "resistance": 3,
+  "lightAbsorption": 0
+}

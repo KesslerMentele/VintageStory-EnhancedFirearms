@@ -1,0 +1,101 @@
+{
+  "attributes": {
+    "mapColorCode":"settlement", 
+    "placeSound": "game:block/dirt"
+  },
+  "behaviors": [
+  {
+    "name": "GroundStorable",
+    "properties": {
+      "bulkTransferQuantity": 4,
+      "burnHoursPerItem": 0.5,
+      "cbScaleYByLayer": 0.25,
+      "collisionBox": {
+        "x1": 0,
+        "y1": 0,
+        "z1": 0,
+        "x2": 1,
+        "y2": 0.125,
+        "z2": 1
+      },
+      "layout": "Stacking",
+      "modelItemsToStackSizeRatio": 1,
+      "placeRemoveSound": "game:block/dirt",
+      "stackingCapacity": 32,
+      "stackingModel": "block/saltcakepile",
+      "transferQuantity": 1,
+      "upSolid": true
+    }
+  }
+],
+  "blockmaterial": "Soil",
+  "class": "BlockPeatbrick",
+  "code": "saltcake",
+  "combustibleProps": {
+      "meltingPoint": 1350,
+      "meltingDuration": 30,
+      "smeltedRatio": 1,
+      "smeltedStack": { "type": "block", "code": "game:glass-plain", "stacksize": 1 }
+    },
+  "creativeinventory": {
+    "general": ["*"],
+    "enhancedfirearms": ["*"]
+  },
+  "fpHandTransform": {
+    "translation": {
+      "x": 0,
+      "y": 0.1,
+      "z": 0.5
+    },
+    "origin": {
+      "x": 0.5,
+      "y": 0,
+      "z": 0.5
+    },
+    "scale": 2
+  },
+  "groundTransform": {
+    "scale": 3.25
+  },
+  "guiTransform": {
+    "origin": {
+      "x": 0.5,
+      "y": 0.125,
+      "z": 0.5
+    },
+    "scale": 2.65
+  },
+  "maxstacksize": 32,
+  "replaceable": 700,
+  "resistance": 2,
+  "shape": { "base": "block/saltcake" },
+  "shapeinventory": { "base": "block/saltcake" },
+  "sounds": {
+    "place": "game:block/dirt",
+    "break": "game:block/dirt",
+    "hit": "game:block/dirt"
+  },
+  "textures": {
+    "all": {
+      "base": "game:block/soil/peat"
+    }
+  },
+  "tpHandTransform": {
+    "translation": {
+      "x": -0.66,
+      "y": 0,
+      "z": -0.51
+    },
+    "rotation": {
+      "x": -77,
+      "y": 59,
+      "z": -1
+    },
+    "origin": {
+      "x": 0.5,
+      "y": 0,
+      "z": 0.5
+    },
+    "scale": 0.73
+  }
+}
