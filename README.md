@@ -56,7 +56,6 @@ flowchart LR
     saltpeter[[Saltpeter]]
 
 %% Existing Fluids
-    water(((Water)))
     sulfuric(((Sulfuric Acid)))
     
 %% New Fluids
@@ -71,7 +70,7 @@ flowchart LR
     
 %% Processing 
     cookFat{Cooking Pot}
-    cookSalt{Cooking Pot}
+    cookSalt{Barrel instant}
     cookGlycerol{Cooking Pot}
 
 %% Ratios
@@ -80,7 +79,6 @@ flowchart LR
     cookFat -- 2 units --> glycerol
     
     saltpeter -- 1 unit --> cookSalt
-    water-- 1 litre --> cookSalt
     sulfuric -- 1 litre --> cookSalt
     cookSalt -- 2 litres --> nitratingMix
     
