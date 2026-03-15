@@ -1,0 +1,21 @@
+{
+  "code": "sodaash",
+  "sealHours": 24,
+  "ingredients": [
+    {
+      "type": "item",
+      "code": "blackash",
+      "quantity": 1
+    },
+    {
+      "type": "item",
+      "code": "game:waterportion",
+      "litres": 1
+    }
+  ],
+  "output": {
+    "type": "item",
+    "code": "sodaash",
+    "stackSize": 1
+  }
+}

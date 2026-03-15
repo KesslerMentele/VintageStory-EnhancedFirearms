@@ -1,7 +1,7 @@
 {
   "attributes": {
     "mapColorCode":"settlement", 
-    "placeSound": "game:block/dirt"
+    "placeSound": "game:block/loosestone"
   },
   "behaviors": [
   {
@@ -20,7 +20,7 @@
       },
       "layout": "Stacking",
       "modelItemsToStackSizeRatio": 1,
-      "placeRemoveSound": "game:block/dirt",
+      "placeRemoveSound": "game:block/loosestone",
       "stackingCapacity": 32,
       "stackingModel": "block/saltcakepile",
       "transferQuantity": 1,
@@ -35,7 +35,7 @@
       "meltingPoint": 1350,
       "meltingDuration": 30,
       "smeltedRatio": 1,
-      "smeltedStack": { "type": "block", "code": "game:glass-plain", "stacksize": 1 }
+      "smeltedStack": { "type": "item", "code": "blackash", "stacksize": 1 }
     },
   "creativeinventory": {
     "general": ["*"],
@@ -71,13 +71,13 @@
   "shape": { "base": "block/saltcake" },
   "shapeinventory": { "base": "block/saltcake" },
   "sounds": {
-    "place": "game:block/dirt",
-    "break": "game:block/dirt",
-    "hit": "game:block/dirt"
+    "place": "game:block/loosestone",
+    "break": "game:block/loosestone",
+    "hit": "game:block/loosestone"
   },
   "textures": {
     "all": {
-      "base": "game:block/soil/peat"
+      "base": "block/saltcake"
     }
   },
   "tpHandTransform": {

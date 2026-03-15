@@ -1,0 +1,20 @@
+{
+  "code": "lyewater",
+  "ingredients": [
+    {
+      "type": "item",
+      "code": "sodaash",
+      "quantity": 1
+    },
+    {
+      "type": "item",
+      "code": "game:slakedlimeportion",
+      "litres": 1
+    }
+  ],
+  "output": {
+    "type": "item",
+    "code": "lyewaterportion",
+    "stackSize": 1
+  }
+}

@@ -1,4 +1,10 @@
 {
     "game:tabname-enhancedfirearms": "Enhanced Firearms",
-    "block-saltcake": "Salt Cake"
+    "block-saltcake": "Salt Cake",
+    "item-blackash": "Black Ash",
+    "item-sodaash": "Soda Ash",
+    "item-lyewaterportion": "Lyewater",
+    "incontainer-item-lyewaterportion": "Lyewater",
+    "item-glycerolportion-hot": "Principal of fat",
+    "incontainer-item-glycerolportion": "Glycerol"
 }

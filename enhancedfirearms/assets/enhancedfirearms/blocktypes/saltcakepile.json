@@ -7,10 +7,10 @@
   },
   "textures": {
     "sides": {
-      "base": "game:block/soil/peatpile/sides"
+      "base": "block/saltcake/sides"
     },
     "peat": {
-      "base": "game:block/soil/peat"
+      "base": "block/saltcake"
     }
   },
   "attributes": {
@@ -22,7 +22,7 @@
   "sideopaque": {
     "all": false
   },
-  "blockmaterial": "Soil",
+  "blockmaterial": "Stone",
   "creativeinventory": {
     "general": [
       ""
