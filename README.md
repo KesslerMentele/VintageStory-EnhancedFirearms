@@ -61,7 +61,7 @@ flowchart LR
     
 %% New Fluids
     sodiumHydroxide((Lyewater))
-    nitratingMix((Nitrating Mixture))
+    nitratingMix((Nitrating Acid))
     nitroglycerine((Nitroglycerine))
     
     

@@ -4,17 +4,17 @@
     {
       "type": "item",
       "code": "sodaash",
-      "quantity": 1
+      "quantity": 2
     },
     {
       "type": "item",
       "code": "game:slakedlimeportion",
-      "litres": 1
+      "litres": 4
     }
   ],
   "output": {
     "type": "item",
     "code": "lyewaterportion",
-    "stackSize": 1
+    "stackSize": 4
   }
 }
