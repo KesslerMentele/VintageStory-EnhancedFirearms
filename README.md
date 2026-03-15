@@ -181,3 +181,4 @@ flowchart TD
 - [ ] More uses for lye
 - [ ] Failure states for Nitroglycerine production :)
 - [ ] Guncotton from cotton as a better alternative to flax-based nitrocellulose
+- [ ] Make production of nirtating acid exothermic
