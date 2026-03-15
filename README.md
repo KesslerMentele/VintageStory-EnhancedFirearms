@@ -1,8 +1,8 @@
 # Enhanced Firearms
 A mod for the game Vintage Story.
 
-
-## Making Lye
+## Proof Of Concept
+### Making Lye
 ```mermaid
 flowchart LR
 
@@ -48,7 +48,7 @@ flowchart LR
     soakCarb --> sodiumHydroxide
 ```
 
-## Making Nitroglycerine
+### Making Nitroglycerine
 ```mermaid
 flowchart LR
 %% Existing Items
@@ -92,7 +92,7 @@ flowchart LR
 
 ```
 
-## Making Nitrocellulose
+### Making Nitrocellulose
 ```mermaid
     flowchart LR
 
@@ -130,7 +130,7 @@ flowchart LR
     nitroBundle --> nitroUnits
 ```
 
-## Making Cartridges
+### Making Cartridges
 ```mermaid
 flowchart TD
 
@@ -175,3 +175,9 @@ flowchart TD
     processingDie --> cartridgeLoad
 
 ```
+
+## Potential Features
+- [ ] Ice baths for acid mixing
+- [ ] More uses for lye
+- [ ] Failure states for Nitroglycerine production :)
+- [ ] Guncotton from cotton as a better alternative to flax-based nitrocellulose
