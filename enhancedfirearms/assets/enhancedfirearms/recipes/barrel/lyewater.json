@@ -15,6 +15,6 @@
   "output": {
     "type": "item",
     "code": "lyewaterportion",
-    "stackSize": 4
+    "litres": 4
   }
 }

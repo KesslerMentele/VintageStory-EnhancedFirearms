@@ -5,6 +5,10 @@
     "item-sodaash": "Soda Ash",
     "item-lyewaterportion": "Lyewater",
     "incontainer-item-lyewaterportion": "Lyewater",
-    "item-glycerolportion-hot": "Principal of fat",
-    "incontainer-item-glycerolportion": "Glycerol"
+    "item-glycerolportion-cold": "Principal of Fat",
+    "item-glycerolportion-hot": "Liquid Principal of Fat",
+    "incontainer-item-glycerolportion-cold": "Principal of Fat",
+    "incontainer-item-glycerolportion-hot": "Liquid Principal of Fat",
+    "game:incontainer-item-acid-full-nitrating": "Nitrating Mixture",
+    "game:item-acid-full-nitrating": "Nitrating Mixture"
 }

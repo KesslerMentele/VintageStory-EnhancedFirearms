@@ -1,0 +1,31 @@
+[
+  {
+    "op": "addmerge",
+    "path": "/variantgroups/0/states/-",
+    "value": "nitrating",
+    "file": "game:itemtypes/liquid/acid.json",
+    "side": "Server"
+  },
+  
+  {
+    "op": "addmerge",
+    "path": "/allowedVariants/-",
+    "value": "acid-full-nitrating",
+    "file": "game:itemtypes/liquid/acid.json",
+    "side": "Server"
+  },
+  
+  {
+    "op": "addmerge",
+    "path": "/attributes/waterTightContainerProps/textureByType/*-nitrating",
+    "value": { "base": "game:block/liquid/dye/yellow", "alpha": 170 },
+    "file": "game:itemtypes/liquid/acid.json"
+  },
+
+  {
+    "op": "addmerge",
+    "path": "/textureByType/*-nitrating",
+    "value": { "base": "game:block/liquid/dye/yellow", "alpha": 170 },
+    "file": "game:itemtypes/liquid/acid.json"
+  }
+]

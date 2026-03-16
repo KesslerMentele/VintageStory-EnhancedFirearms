@@ -1,6 +1,15 @@
 {
-  "code": "glycerolportion",
+  "code": "nitroglycerine",
   "class": "ItemLiquidPortion",
+  "variantgroups": [
+    {
+      "code": "state",
+      "states": [
+        "hot",
+        "cold"
+      ]
+    }
+  ],
   "matterState": "liquid",
   "attributes": {
     "handbook": {
@@ -9,17 +18,29 @@
     "waterTightContainerProps": {
       "containable": true,
       "isopaque": true,
-      "itemsPerLitre": 100,
+      "itemsPerLitre": 10,
       "texture": {
         "base": "game:block/liquid/dye/white"
       },
       "allowSpill": true,
-      "whenSpilled": {
-        "action": "DropContents",
-        "stack": {
-          "type": "item",
-          "code": "glycerolportion"
+      "whenSpilledByType": {
+
+        "*-hot": {
+          "action": "DropContents",
+          "stack": {
+            "type": "item",
+            "code": "nitroglycerine-{state}"
+          }
+        },
+
+        "*-cold": {
+          "action": "DropContents",
+          "stack": {
+            "type": "item",
+            "code": "nitroglycerinegelatin"
+          }
         }
+
       }
     }
   },
@@ -43,7 +64,7 @@
             "ucontents": [
               {
                 "type": "item",
-                "code": "enhancedfirearms:glycerolportion",
+                "code": "enhancedfirearms:nitroglycerine-{state}",
                 "makefull": true
               }
             ]
@@ -90,5 +111,23 @@
       "y": -1,
       "z": -1.4
     }
+  },
+  "transitionablePropsByType": {
+    "*-hot": [
+      {
+        "type": "Harden",
+        "freshHours": {
+          "avg": 4
+        },
+        "transitionHours": {
+          "avg": 0.01
+        },
+        "transitionedStack": {
+          "type": "item",
+          "code": "nitroglycerine-cold"
+        },
+        "transitionRatio": 1
+      }
+    ]
   }
 }

@@ -14,7 +14,7 @@
     "transitionRatio": 1,
     "transitionedStack": {
       "type": "item",
-      "code": "glycerolportion"
+      "code": "glycerolportion-hot"
     }
   },
   "ingredients": [
@@ -45,7 +45,7 @@
   ],
   "cooksInto": {
     "type": "item",
-    "code": "glycerolportion",
+    "code": "glycerolportion-hot",
     "quantity": 2
   }
 }
